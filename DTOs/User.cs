@@ -63,3 +63,4 @@ namespace Jwpro.Api.Proxy.Bridge.DTOs
         public DateTime? welcomedAt { get; set; }
     }
 }
+  
