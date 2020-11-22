@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Jwpro.Api.Proxy.Bridge</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>Common.LmsIntegration.Data.Bridge</PackageId>
+    <Authors>Digital Services</Authors>
+    <Company>Radiology Partners</Company>
+    <Product>Common.LmsIntegration.Data.Bridge</Product>
+    <Description>A .Net Wrapper for the Bridge API</Description>
+    <Copyright>2020</Copyright>
+    <PackageProjectUrl>https://github.com/radiology-partners/common-lmsintegration-bridge</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/radiology-partners/common-lmsintegration-bridge</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="ServiceStack.HttpClient" Version="5.9.2" />
+  </ItemGroup>
+
+</Project>
