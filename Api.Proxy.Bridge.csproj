@@ -11,15 +11,17 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Jwpro.Api.Proxy.Bridge</RootNamespace>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageId>Common.LmsIntegration.Data.Bridge</PackageId>
-    <Authors>Digital Services</Authors>
-    <Company>Radiology Partners</Company>
-    <Product>Common.LmsIntegration.Data.Bridge</Product>
-    <Description>A .Net Wrapper for the Bridge API</Description>
+    <PackageId>api-proxy-bridge</PackageId>
+    <Authors>Jason D Wilson</Authors>
+    <Company>jwpro</Company>
+    <Product>api-proxy-bridge</Product>
+    <Description>A .Net Wrapper Proxy for the Bridge API</Description>
     <Copyright>2020</Copyright>
-    <PackageProjectUrl>https://github.com/radiology-partners/common-lmsintegration-bridge</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/radiology-partners/common-lmsintegration-bridge</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/JasonDWilson/api-proxy-bridge</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/JasonDWilson/api-proxy-bridge</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
+    <PackageReleaseNotes>Original publish</PackageReleaseNotes>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
