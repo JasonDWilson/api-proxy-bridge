@@ -20,4 +20,4 @@ jobs:
     - name: Test
       run: dotnet test --no-restore --verbosity normal
     - name: Nuget Push
-      run: cd bin\Release && dotnet nuget push *.nupkg --api-key oy2jomjcx42ks5fpyvvalt3b76pm5xeujkbkdzaismbmua --source https://api.nuget.org/v3/index.json --skip-duplicate
+      run: cd bin\Release && dotnet nuget push *.nupkg --api-key {{ secrets.JWPRO_NUGET_KEY }} --source https://api.nuget.org/v3/index.json --skip-duplicate
