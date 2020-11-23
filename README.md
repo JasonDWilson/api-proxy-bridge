@@ -1,4 +1,4 @@
-# api-proxy-bridge:  A C# proxy wrapper for the Bridge Learning Management System
+# api-proxy-bridge:  A .Net Standard 2.0 proxy wrapper for the Bridge Learning Management System
 
 *Please note that this is not intended to be a comprehensive coverage of the Bridge API
 I only included what I needed when I wrote it.*
